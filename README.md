@@ -1,37 +1,35 @@
 # web2026: Space Oddity
 
-Seven flexbox exercises. They build up: fix broken CSS, then write CSS against given HTML, then write HTML against given CSS, then build a component from a screenshot.
+Flexboxes are going to be one of the biggest superpowers in your web design toolkit. You might already be familiar with it because of Figma's autolayout, which has the same mental models.
 
-Every exercise is a real interface component you will build again for actual work.
+This repo has a set of exercises designed to help you understand flexboxes. Each exercise is in a separate folder of its own. Please read the README for each exercise before you touch the code.
+
+In some cases you will modify the HTML, in some cases the CSS. Some exercises also have a `goal.png` to check against.
+
+**As you do each exercise, remember to commit your work!**
 
 ## Setup
 
 1. Fork this repo, then clone your fork with GitHub Desktop.
 2. Open the folder in VS Code.
-3. Install the Live Server extension (search "Live Server" by Ritwick Dey in the Extensions view).
-4. Right-click `index.html` and choose "Open with Live Server".
+3. Right-click `index.html` and choose "Open with Live Server".
 
-Start from `index.html`. It links every exercise. Do them in order.
+Start from `index.html`. It links every exercise!
 
 ## Exercises
 
-| # | Name | Task | When |
-|---|------|------|------|
-| 01 | Navbar | Fix the CSS | In class |
-| 02 | Filter bar | Fix the CSS | In class |
-| 03 | Gallery | Write the CSS | In class |
-| 04 | Columns | Write the CSS | In class |
-| 05 | Profile list | Write the HTML | Homework |
-| 06 | Card | Build both from a screenshot | Homework |
-| 07 | Drills | Three small ones | Homework |
+| # | Name | Task |
+|---|------|------|
+| 01 | Navbar | Fix the CSS |
+| 02 | Filter bar | Fix the CSS |
+| 03 | Gallery | Write the CSS |
+| 04 | Columns | Write the CSS |
+| 05 | Profile list | Write the HTML |
+| 06 | Card | Build both from a screenshot |
+| 07 | Drills | Three small ones |
+| 08 | Article | Write the CSS (editorial page) |
+| 09 | Front page | Write the CSS (a whole page in flexbox) |
 
-Each folder has a short README with the task, and most have a `goal.png` to check against.
-
-## Rules
-
-- Filenames stay lowercase.
-- Read the folder README before you touch the code.
-- Stuck for more than a few minutes: read the error, check the docs, ask a neighbor, then ask me.
 
 ## References
 

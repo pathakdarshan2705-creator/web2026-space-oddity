@@ -1,0 +1,47 @@
+.post {
+  /* TODO: center the column and give it a readable width
+     (max-width around 60ch, and margin to center it) */
+}
+
+.byline {
+  /* TODO: author on the left, date on the right, on one row */
+  color: #666;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.post-foot {
+  /* TODO: same split as the byline */
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e0e0e2;
+  color: #666;
+}
+
+/* Styling below is done. Leave it. */
+.kicker {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.75rem;
+  color: #2563eb;
+}
+
+.post-head h1 {
+  margin: 0.25rem 0;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.post p {
+  line-height: 1.7;
+}
+
+.post blockquote {
+  margin: 1.5rem 0;
+  padding-left: 1rem;
+  border-left: 3px solid #2563eb;
+  font-size: 1.25rem;
+  font-style: italic;
+  color: #333;
+}

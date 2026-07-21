@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>09: Front page</title>
+  <link rel="stylesheet" href="../shared.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="brief">
+    <h1>09: Front page</h1>
+    <p>Write the CSS. This is a magazine front page. Stack the masthead, the stories, and the footer down the page. In the middle, put a large lead story next to a rail of two smaller ones, with the lead taking about twice the width. Match <code>goal.png</code>. TODOs are in <code>style.css</code>. This is a page laid out entirely with flexbox.</p>
+    <img class="goal" src="goal.png" alt="A masthead, then a wide lead story beside a narrow rail of two stacked stories, then a footer">
+  </div>
+
+  <div class="stage">
+    <div class="paper">
+      <header class="masthead">
+        <span class="title">The Flexbox Times</span>
+        <span class="issue">Vol. 1, No. 3</span>
+      </header>
+
+      <main class="stories">
+        <article class="lead">
+          <h2>The Return of the Handmade Page</h2>
+          <p>A generation raised on templates is discovering the pleasure of building a website by hand, one tag at a time, and finding it is not as hard as they were told.</p>
+          <p>What started as nostalgia has become a small movement: personal sites, web rings, and pages that load in a blink because there is almost nothing to load.</p>
+        </article>
+
+        <aside class="rail">
+          <article class="brief-story">
+            <h3>Fonts, Briefly</h3>
+            <p>Two typefaces are plenty for any page. A third is usually a mistake.</p>
+          </article>
+          <article class="brief-story">
+            <h3>On Whitespace</h3>
+            <p>The empty parts of a layout are doing as much work as the full ones.</p>
+          </article>
+        </aside>
+      </main>
+
+      <footer class="colophon">
+        <span>Printed on the open web</span>
+        <span>Made by hand</span>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>

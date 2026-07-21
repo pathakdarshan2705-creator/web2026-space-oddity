@@ -1,0 +1,66 @@
+.paper {
+  /* TODO: stack masthead, stories, footer down the page */
+  max-width: 760px;
+  margin: 0 auto;
+  gap: 1.5rem;
+}
+
+.masthead {
+  /* TODO: title on the left, issue on the right, on one row, centered */
+  padding-bottom: 1rem;
+  border-bottom: 3px solid #1a1a1a;
+}
+
+.stories {
+  /* TODO: lead and rail side by side, with a gap */
+}
+
+.lead {
+  /* TODO: the lead takes about twice the width of the rail */
+}
+
+.rail {
+  /* TODO: stack the two small stories with a gap */
+}
+
+/* Styling below is done. Leave it. */
+.title {
+  font-size: 1.6rem;
+  font-weight: 800;
+  font-family: Georgia, serif;
+}
+
+.issue {
+  color: #666;
+  font-size: 0.85rem;
+}
+
+.lead h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.6rem;
+  line-height: 1.2;
+  font-family: Georgia, serif;
+}
+
+.lead p, .brief-story p {
+  line-height: 1.6;
+  color: #333;
+}
+
+.brief-story {
+  padding: 1rem;
+  background: #f4f4f5;
+  border-radius: 8px;
+}
+
+.brief-story h3 {
+  margin: 0 0 0.4rem;
+}
+
+.colophon {
+  /* TODO: same left/right split as the masthead */
+  padding-top: 1rem;
+  border-top: 1px solid #e0e0e2;
+  color: #666;
+  font-size: 0.85rem;
+}
