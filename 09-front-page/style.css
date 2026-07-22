@@ -1,5 +1,7 @@
 .paper {
   /* TODO: stack masthead, stories, footer down the page */
+  display: flex;
+  flex-direction: column;
   max-width: 760px;
   margin: 0 auto;
   gap: 1.5rem;
@@ -7,20 +9,30 @@
 
 .masthead {
   /* TODO: title on the left, issue on the right, on one row, centered */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding-bottom: 1rem;
   border-bottom: 3px solid #1a1a1a;
 }
 
 .stories {
   /* TODO: lead and rail side by side, with a gap */
+  display: flex;
+  gap: 1.5rem;
 }
 
 .lead {
   /* TODO: the lead takes about twice the width of the rail */
+  flex: 2;
 }
 
 .rail {
   /* TODO: stack the two small stories with a gap */
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  flex: 1;
 }
 
 /* Styling below is done. Leave it. */
@@ -49,7 +61,7 @@
 
 .brief-story {
   padding: 1rem;
-  background: #f4f4f5;
+  background: #c3c3c7;
   border-radius: 8px;
 }
 
@@ -59,6 +71,9 @@
 
 .colophon {
   /* TODO: same left/right split as the masthead */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding-top: 1rem;
   border-top: 1px solid #e0e0e2;
   color: #666;
