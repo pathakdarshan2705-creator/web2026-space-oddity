@@ -1,6 +1,9 @@
 /* a. Toolbar: title left, button far right, one row, centered. */
 .toolbar {
   /* TODO */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 0.75rem 1rem;
   border: 1px solid #e0e0e2;
   border-radius: 8px;
@@ -10,16 +13,21 @@
 /* b. Search row: input grows, button keeps its size. */
 .search {
   /* TODO */
+  display: flex;
   margin-top: 1.5rem;
 }
 .search input {
   /* TODO: grow to fill */
+  max-width: 100%;
   padding: 0.5rem 0.75rem;
 }
 
 /* c. Centered box: center it across and down the band. */
 .hero {
   /* TODO */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-height: 300px;
   margin-top: 1.5rem;
   border: 1px solid #e0e0e2;
