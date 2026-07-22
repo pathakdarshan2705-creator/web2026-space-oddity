@@ -1,6 +1,7 @@
 .filters {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .chip {
