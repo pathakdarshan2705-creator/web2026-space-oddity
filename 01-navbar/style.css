@@ -1,13 +1,15 @@
 .navbar {
-  display: block;
-  justify-content: left;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
   padding: 1rem 2rem;
   background: #1b1b2b;
   border-radius: 6px;
 }
 
 .links {
-  gap: 1.5rem;
+  display: flex;
+  gap: 5.5rem;
 }
 
 .logo {
